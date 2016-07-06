@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+    <script type='text/javascript' src="src/d3.min.js" charset="utf-8"></script>
+	<script type='text/javascript' src="src/jquery-1.12.4.min.js" charset="utf-8"></script>
+	<script type='text/javascript' src="src/bootstrap.min.js" charset="utf-8"></script>
+	<link rel='stylesheet' type='text/css' href='src/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='src/styles.css'>
+	<title>Melodic Contours in Malhun</title>
+</head>
+<body>
+	<div id = 'presentation' class = 'btn-group'>
+		<button id = 'reset' class = 'btn btn-default' onClick = 'reset()'>Reset</button>
+		<button id = 'nextStep' class = 'btn btn-default' onClick = 'nextStep()'>Next</button>
+	</div>
+	<div id = 'modeSelector' class = 'btn-group'>
+		<button id = 'updateToSteps' class = 'btn btn-default' onClick = 'updateToSteps()'>Steps</button>
+		<button id = 'updateToPitches' class = 'btn btn-default' onClick = 'updateToPitches()'>Pitches</button>
+	</div>
+	<center>
+		<div class = 'container'>
+	    	<svg class='chart'>
+	    	</svg>
+		</div>
+		<div id = 'buttons'>
+		</div>
+	</center>
+</body>
+<script type='text/javascript' src='src/script.js'></script>
+</html>
