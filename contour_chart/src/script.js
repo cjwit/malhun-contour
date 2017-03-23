@@ -86,14 +86,15 @@ var presentationSteps = [
     function() {
         $('#updateToSteps').click();
     },
-    function() {
+/**    function() {
         clickThrough(toClick)
         toClick = ["Damlij-Bouzouba-1", "Damlij-Bouzouba-3", "Damlij-Bouzouba-6", "Damlij-Bouzouba-7", "Damlij-Bouzouba-9", "Damlij-Toulali-1", "Damlij-Toulali-4", "Damlij-Toulali-6", "Damlij-Toulali-7", "Damlij-Toulali-8", "Ghita-Haroushi-2", "Ghita-Haroushi-10", "Gnaoui-Hussein-1", "Gnaoui-Hussein-7", "Ma Zin Wsluk-Sousi-1", "Shmaa-Haroushi-1", "Shmaa-Haroushi-4", "Shmaa-Haroushi-6", "Shmaa-Haroushi-7", "Shmaa-Haroushi-8", "Harraz-Ghanem-1", "Harraz-Ghanem-2", "Harraz-Ghanem-8", "Harraz-Ghanem-9", "Harraz-Ghanem-13", "Fatma-Aloudi-1", "Fatma-Aloudi-4", "Fatma-Aloudi-8", "Zawgna fil Hmak demo-Sousi-1", "Zawgna fil Hmak demo-Sousi-2", "Zawgna fil Hmak demo-Sousi-3", "Shmaa-Toulali-1", "Shmaa-Toulali-4", "Shmaa-Toulali-6", "Shmaa-Toulali-7", "Shmaa-Toulali-8", "Harraz-Haroushi-1", "Harraz-Haroushi-4", "Harraz-Haroushi-5", "Harraz-Haroushi-6", "Harraz-Haroushi-7", "Fatma-Asri-1", "Fatma-Asri-5", "Fatma-Asri-6", "Fatma-Toulali-1", "Ghazel-Haroushi-2", "Ghazel-Haroushi-7", "Ghazel-Haroushi-10", "Lutfiyya-Harouchi-1", "Lutfiyya-Harouchi-7", "Lutfiyya-Harouchi-8", "Warda-Binslamane-1", "Warda-Binslamane-4", "Warda-Binslamane-6", "Warda-Youbi-1", "Warda-Youbi-2", "Warda-Youbi-3", "Lutfiyya-Sousi-1", "Ghazel-Omar-1", "Ghazel-Omar-6", "Hakim al Dhati-Sousi-1", "Hakim al Dhati-Sousi-4"];
         clickThrough(toClick)
     },
+**/
     function() {
         clickThrough(toClick)
-        toClick = ["Shmaa-Haroushi-8", "Mersul-Sqalli-4", "Ghazel-Omar-1", "Ghazel-Omar-6"];
+        toClick = ["Hakim al Dhati-Sousi-1", "Hakim al Dhati-Sousi-4", "Damlij-Bouzouba-9", "Fatma-Aloudi-1", "Shmaa-Haroushi-8", "Mersul-Sqalli-4", "Ghazel-Omar-1", "Ghazel-Omar-6"];
         clickThrough(toClick)
     },
     function() {
